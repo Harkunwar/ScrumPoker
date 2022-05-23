@@ -1,7 +1,7 @@
 {
-  "name": "vite-template-solid",
-  "version": "0.0.0",
-  "description": "",
+  "name": "scrum-poker",
+  "version": "0.0.1",
+  "description": "Beautiful Scrum Poker Web App",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,7 +9,11 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@trpc/next": "^9.23.6",
+    "@trpc/server": "^9.23.6",
+    "@vercel/node": "^1.15.3",
     "autoprefixer": "^10.4.7",
+    "install": "^0.13.0",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24",
     "typescript": "^4.6.4",
@@ -17,6 +21,7 @@
     "vite-plugin-solid": "^2.2.6"
   },
   "dependencies": {
+    "@trpc/client": "^9.23.6",
     "solid-js": "^1.4.2"
   }
 }
