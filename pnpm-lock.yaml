@@ -13,6 +13,7 @@ specifiers:
   typescript: ^4.6.4
   vite: ^2.9.9
   vite-plugin-solid: ^2.2.6
+  zod: ^3.17.3
 
 dependencies:
   '@trpc/client': 9.23.6_@trpc+server@9.23.6
@@ -29,6 +30,7 @@ devDependencies:
   typescript: 4.6.4
   vite: 2.9.9
   vite-plugin-solid: 2.2.6
+  zod: 3.17.3
 
 packages:
 
@@ -1404,4 +1406,8 @@ packages:
   /yn/3.1.1:
     resolution: {integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==}
     engines: {node: '>=6'}
+    dev: true
+
+  /zod/3.17.3:
+    resolution: {integrity: sha512-4oKP5zvG6GGbMlqBkI5FESOAweldEhSOZ6LI6cG+JzUT7ofj1ZOC0PJudpQOpT1iqOFpYYtX5Pw0+o403y4bcg==}
     dev: true
